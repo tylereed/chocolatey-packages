@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://api.azul.com/zulu/download/community/v1.0/bundles/latest/?jdk_version=8&bundle_type=jdk&features=fx&ext=msi&os=windows&arch=x86&hw_bitness=64'
+$releases = 'https://api.azul.com/zulu/download/community/v1.0/bundles/latest/?jdk_version=8&bundle_type=jdk&features=fx&ext=&os=windows&arch=x86&hw_bitness=64'
 
 function global:au_SearchReplace {
   @{
